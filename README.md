@@ -48,5 +48,3 @@ Every change made is saved back to "shows.csv" so it stays updated.
 To run the test functions:
 ```pytest test_project.py```
 test_project.py, that is why the helper functions were added so those could be tested instead.
-
- Overall, the project's main goal was to see which shows were to watch and which were complete
