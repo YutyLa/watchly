@@ -1,7 +1,5 @@
 # Watchly
 
-**Video demo:** https://www.youtube.com/watch?v=gV22w9WdCVo
-
 **Description:**
 
 Watchly is a command-line interface program which helps you keep track and manage your shows.  I specifically made it for anime/movies, to mark them as "completed" or "to watch".
@@ -49,13 +47,6 @@ Every change made is saved back to "shows.csv" so it stays updated.
 
 To run the test functions:
 ```pytest test_project.py```
+test_project.py, that is why the helper functions were added so those could be tested instead.
 
-# Design choices
-
- The project was made with personal use in mind. It isn't very flexible/friendly and forces the user to only choose between "Completed" and "To Watch".
-
- The statistics(shows) function won't count if a user adds a show with a type other than "Anime" or "Movie". Also, if two shows happen to have the same title, the remove and edit functions would only affect the first matching one.
-
- Originally I was planning on using object-oriented programming for the project but it was becoming complex and the csv module was a simpler solution. It was proving to be difficult to test the normal functions in test_project.py, that is why the helper functions were added so those could be tested instead.
-
- Overall, the project's main goal was to see which shows were to watch and which were completed.
+ Overall, the project's main goal was to see which shows were to watch and which were complete
